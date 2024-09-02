@@ -1,8 +1,11 @@
 body {
-  background-color: hsl(330, 100%, 95%);
   font-family: Outfit;
-  display: flex;
-  justify-content: center;
+  margin:0;
+}
+.main {
+  background-color: hsl(330, 100%, 95%);
+  padding: 5rem 0 0;
+  margin-bottom: 1rem;
 }
 img {
   width:650px;
@@ -10,33 +13,35 @@ img {
 }
 figure {
   margin: 0;
+  width: 650px;
   padding: 0;
 }
 .container {
   width: 650px;
-  max-width: 736px;
   height: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 30px;
   background-color: hsl(0, 0%, 100%);
-  margin: 10px;
+  margin: auto;
   border-radius: 15px;
 }
 .attribution {
+  width:650px;
+  height:auto;
+  text-align: center;
+  padding: 0;
   font-size: 11px;
-  position: fixed;
-  top: 0%;
-  left: 0%;
-  padding: 3px;
-  margin:20px;
+  margin: 5rem auto 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 .prep {
   background-color: hsl(330, 100%, 98%);
+  width: 85%;
+  margin-right: 0;
   padding:20px 0 20px 20px;
   border-radius: 15px;
 }
