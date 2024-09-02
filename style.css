@@ -1,12 +1,11 @@
 body {
-  font-family: Outfit;
+  font-family: "Outfit";
   margin:0;
 }
 .main {
   background-color: hsl(330, 100%, 95%);
-  padding: 0;
-  width:388px;
-  margin: 0;
+  padding: 5rem 0 0;
+  margin-bottom: 1rem;
 }
 img {
   width:650px;
@@ -25,16 +24,16 @@ figure {
   flex-direction: column;
   padding: 30px;
   background-color: hsl(0, 0%, 100%);
-  margin: 0;
+  margin: auto;
   border-radius: 15px;
 }
 .attribution {
-  width:auto;
+  width:650px;
   height:auto;
   text-align: center;
   padding: 0;
   font-size: 11px;
-  margin: 5rem auto 0;
+  margin: 5rem auto 1.5rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -76,9 +75,12 @@ h2, .brown {
 hr {
   opacity: .3;
 }
-h3 {
+.sm {
   color: hsl(332, 51%, 32%);
+  font-size: 16px;
   margin-top: 0;
+  font-family: "Outfit";
+  font-weight: 700;
 }
 li, .grey {
   color: hsl(30, 10%, 34%);
