@@ -4,8 +4,9 @@ body {
 }
 .main {
   background-color: hsl(330, 100%, 95%);
-  padding: 5rem 0 0;
-  margin-bottom: 1rem;
+  padding: 0;
+  width:388px;
+  margin: 0;
 }
 img {
   width:650px;
@@ -24,16 +25,16 @@ figure {
   flex-direction: column;
   padding: 30px;
   background-color: hsl(0, 0%, 100%);
-  margin: auto;
+  margin: 0;
   border-radius: 15px;
 }
 .attribution {
-  width:650px;
+  width:auto;
   height:auto;
   text-align: center;
   padding: 0;
   font-size: 11px;
-  margin: 5rem auto 2rem;
+  margin: 5rem auto 0;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -60,15 +61,14 @@ h2, .brown {
 }
 .brown {
   font-weight: 700;
-  position: relative;
-  left: 50%;
-  top:50%;
+  display: inline-block;
+  text-align: left;
 }
 .left {
   color: hsl(30, 10%, 34%);
+  width: 50%;
   font-weight: 700;
-  position: relative;
-  top:50%
+  display: inline-block;
 }
 .pad {
   margin-top: 30px;
@@ -76,17 +76,14 @@ h2, .brown {
 hr {
   opacity: .3;
 }
-h4 {
+h3 {
   color: hsl(332, 51%, 32%);
   margin-top: 0;
-}
-ol, ul {
-  color: hsl(332, 51%, 32%);
 }
 li, .grey {
   color: hsl(30, 10%, 34%);
   font-weight: 700;
 }
-b {
+b, strong {
   color: hsl(16, 33%, 22%);
 }
